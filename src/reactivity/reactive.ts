@@ -14,6 +14,4 @@ export const reactive = (raw:any)=>{
   })
 }
 
-export const effect = ()=>{
 
-}
