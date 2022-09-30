@@ -1,4 +1,6 @@
 
+import { reactive } from '../src/reactivity/reactive';
+import {effect} from './../src/reactivity/effect'
 
 describe('effect',()=>{
   it('happy path',()=>{
