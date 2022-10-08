@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "git": "git status && git add -A && cm_addlongname && git push",
     "test": "jest"
   },
   "repository": {
@@ -24,5 +25,8 @@
     "@types/jest": "^27.4.1",
     "babel-jest": "^27.5.1",
     "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "cm_addlongname": "^1.0.8"
   }
 }
