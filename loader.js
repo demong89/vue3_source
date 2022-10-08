@@ -1,7 +1,7 @@
 
 /**
  * 自定义了loader 
- * 文件规范 loader/xxx.js
+ * loader/xxx.js
  * 
  */
 
@@ -16,3 +16,4 @@ module.exports = function(source){
 // if(require.main===module){ // 测试时使用
 
 // }
+
